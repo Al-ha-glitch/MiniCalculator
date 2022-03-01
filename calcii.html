@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator Application</h1>
+
+    <div id="calculator">
+        <form name="calci">
+        <input type="text" placeholder="0" name="answer">
+<div id="keys">
+    <button id="all_clear" type="button" value="CLEAR" onclick="calci.answer.value ='' ">CLEAR</button>
+    
+    <button class="number" type="button" value="1" onclick="calci.answer.value += '1' ">1</button>
+    <button class="number" type="button" value="2" onclick="calci.answer.value += '2' ">2</button>
+    <button class="number" type="button" value="3" onclick="calci.answer.value += '3' ">3</button>
+    <button class="operator" type="button" value="/" onclick="calci.answer.value += '/' ">/</button>
+
+    <button class="number" type="button" value="4" onclick="calci.answer.value += '4' ">4</button>
+    <button class="number" type="button" value="5" onclick="calci.answer.value += '5' ">5</button>
+    <button class="number" type="button" value="6" onclick="calci.answer.value += '6' ">6</button>
+    <button class="operator" type="button" value="*" onclick="calci.answer.value += '*' ">*</button>
+
+    <button class="number" type="button" value="7" onclick="calci.answer.value += '7' ">7</button>
+    <button class="number" type="button" value="8" onclick="calci.answer.value += '8' ">8</button>
+    <button class="number" type="button" value="9" onclick="calci.answer.value += '9' ">9</button>
+    <button class="operator" type="button" value="+" onclick="calci.answer.value += '+' ">+</button>
+
+    <button class="number" type="button" value="0" onclick="calci.answer.value += '0' ">0</button>
+    <button class="number" type="button" value="." onclick="calci.answer.value += '.' ">.</button>
+    <button class="number" type="button" value="=" onclick="calci.answer.value = eval(calci.answer.value)">=</button>
+    <button class="operator" type="button" value="-" onclick="calci.answer.value += '-' ">-</button>
+</div>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+h1{
+  font-size: 50px;
+    text-align: center;
+    background-color: rgb(255, 224, 171);
+    background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+
+}
+
+input {
+  font-size: 3.5em;
+    width: 87%;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(255, 224, 171);
+    text-align: center;
+  }
+
+  #calculator {
+    margin: auto;
+    width: 336px;
+    border-radius: 10px;  
+  }
+
+  #keys{
+    background-color: pink;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: auto;
+  }
+
+  #keys .operator{
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    margin-top: 2px;
+    color: solid black;
+    font-size: 1.7em;
+  }
+
+  #keys #all_clear{
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  #keys .number{
+    margin-top: 2px;
+    font-size:1.7em ;
+    }
+
+  #keys button {
+  font-size: 1.3em;
+  /* font-family: "Roboto Mono"; */
+  float: left;
+  width: 25%;
+  border: solid black 1px;
+  padding: 1em;
+  cursor: pointer;
+  background-color: pink;
+  }
+
+  #keys button:hover{
+    background-color: #861657;
+background-image :linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+
+
+    
+      }
